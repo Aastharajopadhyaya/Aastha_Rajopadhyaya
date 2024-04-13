@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage - My Website</title>
+  <link rel="stylesheet" href="style_of_FP.css">
+  <script src="cart.js" defer></script>
+</head>
+<body>
+
+<div class="header">
+  <h1>Aura Attire</h1>
+  <h3>Welcome to My Website</h3>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Shop</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="Login.html" class="right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a>
+  <a href="Sign_up.html" class="right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button></a>
+</div>
+
+<main>
+  <section class="hero">
+    <h2>Discover Your Style</h2>
+    <p>Explore our latest collection and find the perfect outfit for any occasion.</p>
+    <a href="gallery.html" class="btn">Shop Now</a>
+  </section>
+
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="Dress-2.jpg" >
+        <h3>Dress 2</h3>
+        <p>Rs.1500</p>
+        <button onclick="buyNow('Dress 2', 100, 'Dress-2.jpg')">Buy Now</button>
+      </div>
+      <div class="gallery-item">
+        <img src="Dress-5.jpg" >
+        <h3>Dress 5</h3>
+        <p>Rs.3000</p>
+        <button onclick="buyNow('Dress 5', 3000, 'Dress-5.jpg')">Buy Now</button>
+      </div>
+      <div class="gallery-item">
+        <img src="Dress-4.jpg" >
+        <h3>Dress 4</h3>
+        <p>Rs.2000</p>
+        <button onclick="buyNow('Dress 4', 2000, 'Dress-4.jpg')">Buy Now</button>
+      </div>
+      <div class="gallery-item">
+        <img src="shirt-2.jpg">
+        <h3>Shirt 2</h3>
+        <p>Rs.500</p>
+        <button onclick="buyNow('Shirt 2', 500, 'shirt-2.jpg')">Buy Now</button>
+      </div>
+      <div class="gallery-item">
+        <img src="jean-1.jpg">
+        <h3>Jeans 1</h3>
+        <p>Rs.1000</p>
+        <button onclick="buyNow('Jeans 1', 1000, 'jean-1.jpg')">Buy Now</button>
+      </div>
+      <div class="gallery-item">
+        <img src="jean-3.jpg">
+        <h3>Jeans 3</h3>
+        <p>Rs.1000</p>
+        <button onclick="buyNow('Jeans 3', 1000, 'jean-3.jpg')">Buy Now</button>
+      </div>
+    </div>
+  </section>
+   
+  <section class="new-arrivals">
+  <h2>New Arrivals</h2>
+    <div class="gallery">
+      New Arrivals are comming soon!!
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 My Website | Address: Kathmandu, Nepal | Email: <a href="mailto:raastha23@tbc.edu.np">raastha23@tbc.edu.np</a></p>
+</footer>
+
+</body>
+</html>

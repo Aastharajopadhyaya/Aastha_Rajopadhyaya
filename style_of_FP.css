@@ -1,0 +1,360 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color:#F3F3F3 ;
+}
+
+/* Header styles */
+.header {
+  background-color: #B0C4DE; 
+  color: #333333 ; 
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header h3 {
+  font-weight: normal;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color:#E0FFFF; 
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color:  #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+  display: block;
+  color:  #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #F0F8FF; 
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('Background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color:  #333333; 
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  background-color: #D8EAF1; 
+  color:  #333333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.hero .btn:hover {
+  background-color: #F0F8FF; 
+}
+
+/* Featured products section styles */
+.featured-products {
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-item {
+  flex: 0 0 calc(50% - 20px); /* Adjust width of each item */
+  max-width: calc(50% - 20px); /* Adjust max-width to prevent overflow */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.gallery-item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.gallery-item button {
+  background-color: #D8EAF1; 
+  color: #333333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery-item button:hover {
+  background-color: #F0F8FF; 
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #ddd; /* Add border to the card */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  margin-bottom: 20px; /* Adjust margin to create spacing between rows */
+}
+
+.card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px 5px 0 0; /* Rounded corners only at the top */
+}
+
+.container h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container h4 button {
+  background-color: #D8EAF1; 
+  color: #333333; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container h4 button:hover {
+  background-color: #F0F8FF; 
+}
+
+
+/* Style the product details section */
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  margin: auto; /* Center the product details horizontally */
+  max-width: 1200px; /* Set a maximum width for the product details */
+  padding-top: 50px; /* Add space at the top */
+}
+
+.product-details h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  text-align: center;
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+.product-image img {
+  width: 100%; /* Ensure images fill their containers */
+  height: auto; /* Maintain aspect ratio*/
+}
+
+.product-price {
+  margin-top: 10px;
+  text-align: center; /* Center align the price */
+}
+
+
+.product-price button {
+  background-color: #D8EAF1;
+  color: #333333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-price button:hover {
+  background-color: #F0F8FF;
+}
+
+.right {
+  float: right;
+}
+
+.contact-form {
+  padding: 20px;
+}
+
+.container {
+  background-color: #D8EAF1;
+  color: #333333;
+  padding: 32px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3em;
+}
+
+.container p {
+  font-size: 1.5em;
+}
+
+.input {
+  width: 100%;
+  padding: 16px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #D8EAF1; 
+  color: black;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color:#F0F8FF;
+}
+
+/* Login styles */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #B0C4DE;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 8px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="submit"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container input[type="submit"] {
+  background-color: #E0FFFF;
+  color: #333333;
+  cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #F0F8FF;
+}
+
+/* Signup styles */
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #B0C4DE;
+}
+
+.signup-container h2 {
+  text-align: center;
+  color: #333333;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container label {
+  margin-bottom: 8px;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"],
+.signup-container input[type="submit"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-container input[type="submit"] {
+  background-color: #E0FFFF;
+  color: #333333;
+  cursor: pointer;
+}
+
+.signup-container input[type="submit"]:hover {
+  background-color: #F0F8FF;
+}
+
+/* Footer styles */
+footer {
+  background-color: #B0C4DE; 
+  color: #333333; 
+  text-align: center;
+  padding: 20px;
+}

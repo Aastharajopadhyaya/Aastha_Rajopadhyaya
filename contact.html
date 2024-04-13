@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Website</title>
+  <link rel="stylesheet" href="style_of_FP.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="header">
+  <h1>Aura Attire</h1>
+  <h3>Welcome to My Website</h3>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Shop</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="Login.html" class="right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a>
+  <a href="Sign_up.html" class="right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button></a>
+</div>
+
+<main>
+  <section class="contact-form">
+    <div class="container blue-grey grayscale-min xlarge padding-top-32">
+      <h1 class="center jumbo">Contact Us</h1>
+      <p>Feel free to reach out to us for any inquiries or assistance. We're here to help!</p>
+      
+      <p class="xxlarge"><b>Contact</b> us via email or phone:</p>
+      
+      <form id="contactForm" action="/contact_submit" method="POST">
+        <p><input class="input padding-16 border" type="text" placeholder="Name" required name="name"></p>
+        <p><input class="input padding-16 border" type="email" placeholder="Email" required name="email"></p>
+        <p><input class="input padding-16 border" type="tel" placeholder="Phone" required name="phone"></p>
+        <p><textarea class="input padding-16 border" placeholder="Message" required name="message"></textarea></p>
+        <p><button class="button light-grey block" type="submit">SEND MESSAGE</button></p>
+      </form>
+      <p id="confirmationMessage"></p>
+      <br>
+      <p class="center xlarge padding-32">We'll get back to you as soon as possible!</p>
+    </div> 
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 My Website | Address: Kathmandu, Nepal | Email: <a href="mailto:raastha23@tbc.edu.np">raastha23@tbc.edu.np</a></p>
+</footer>
+
+</body>
+</html>
